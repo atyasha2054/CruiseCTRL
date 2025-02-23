@@ -6,6 +6,8 @@ Here’s a draft of your `README.md` file for **cruiseCTRL**:
 
 **cruiseCTRL** is an advanced multi-task learning framework designed for real-time perception in autonomous driving. It integrates object detection, lane segmentation, and tracking into a single end-to-end model, leveraging state-of-the-art deep learning techniques for enhanced accuracy and robustness.  
 
+![cruiseCTRL](Result/traffic_analysis_dash.jpg)
+
 ## 🚀 Key Features  
 
 ### 1. Multi-Task Learning  
