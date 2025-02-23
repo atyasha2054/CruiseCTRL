@@ -119,3 +119,13 @@ Here’s a list of **key features** and **usage** for your Intelligent Traffic P
    - Save detection results, lane analysis, and route optimization data for further analysis.
 
 ---
+
+## 🤝 Contributors 💡  
+👨‍💻 **Team JAWAAN**  
+
+- 🧠 **Sandeep Sarkar** - ML Engineer  
+- 🤖 **Atyasha Bhattacharyya** - AI/ML Developer & Data Analyst    
+- 💻 **Subhanjan Saha** - Software Developer  
+- 🎮 **Ishaan Karmakar** - Web Developer
+
+---
