@@ -67,7 +67,7 @@ Our **Intelligent Traffic Perception System** integrates:
 
 To **further enhance accuracy**, we’ve **augmented YOLOv8** with **Transformer-based attention modules**. 🤖🚀  
 
-![weights](https://drive.google.com/drive/folders/1NZIYadoCz4glykqLLA1GVUS-SUTHAQ-q?usp=drive_link)
+[weights](https://drive.google.com/drive/folders/1NZIYadoCz4glykqLLA1GVUS-SUTHAQ-q?usp=drive_link)
 
 ---
 
