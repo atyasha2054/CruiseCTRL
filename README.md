@@ -76,30 +76,46 @@ Join us in **transforming traffic management!** 🏙️💡
 
 ![cruiseCTRL](Result/traffic_analysis_dash.jpg)
 
-## 🚀 Key Features  
+Here’s a list of **key features** and **usage** for your Intelligent Traffic Perception System, formatted with emojis (stickers) for a visually appealing README file:
 
-### 1. Multi-Task Learning  
-- Combines **object detection (YOLOv8)**, **lane segmentation (UNet)**, and **tracking (DeepSORT)** into a unified model.  
-- Improves **efficiency and context-awareness** for autonomous driving scenarios.  
+---
 
-### 2. Attention Mechanisms  
-- Enhances **YOLOv8** with **Transformer-based attention modules**.  
-- Boosts detection accuracy, especially for **small or occluded objects** in complex environments.  
+### **Key Features** 🚀
 
-### 3. Robustness Under Diverse Conditions  
-- Implements **synthetic data augmentation** techniques (fog, rain, night conditions).  
-- Ensures reliable performance across **varying lighting, weather, and traffic scenarios**.  
+- 🚗 **Multi-Class Detection**: Detects cars, pedestrians, bikes, buses, and traffic signals using **YOLOv8**.
+- 🛣️ **Lane Segmentation**: Identifies lane boundaries and road layouts with **UNet** for precise traffic analysis.
+- 📊 **Lane Traffic Analysis**: Tracks vehicle counts per lane and monitors traffic distribution in real-time.
+- 🚨 **Dynamic Route Optimization**: Finds the shortest and most efficient routes during high traffic or obstacles.
+- 🌧️ **Robustness in Diverse Conditions**: Trained with synthetic data for fog, rain, and nighttime scenarios.
+- 📈 **Real-Time Dashboard**: A Python-based dashboard for live video feeds, traffic heatmaps, and analytics.
+- 🔍 **Attention Mechanisms**: Enhances detection accuracy for small or occluded objects using Transformer-based modules.
+- 🚦 **Traffic Violation Alerts**: Detects lane departures, illegal crossings, and other violations.
 
-## 🏎️ Usage  
+---
 
-To run the model on a video stream:  
-```bash
-python main.py --source your_video.mp4 --model yolo_unet_deepsort
-```  
+### **Usage** 🛠️
 
-## 📜 License  
-This project is licensed under the **MIT License**.  
+1. **Install Dependencies**:
+   ```bash
+   pip install ultralytics opencv-python torch torchvision
+   ```
 
----  
+2. **Run the System**:
+   ```python
+   python main.py --source traffic_video.mp4 --weights yolov8n.pt
+   ```
 
-Let me know if you want any modifications! 🚀
+3. **Access the Dashboard**:
+   - Launch the Python-based dashboard to view real-time traffic analysis.
+   ```bash
+   python traffic_analysis_dash.py
+   ```
+
+4. **Analyze Traffic**:
+   - Monitor lane-wise vehicle counts, traffic density, and optimized routes.
+   - Receive alerts for traffic violations or congestion.
+
+5. **Export Results**:
+   - Save detection results, lane analysis, and route optimization data for further analysis.
+
+---
