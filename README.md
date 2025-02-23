@@ -1,6 +1,3 @@
-Here’s a draft of your `README.md` file for **cruiseCTRL**:  
-
----
 🚦 Intelligent Traffic Perception System
 
 🌟 Overview
