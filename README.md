@@ -90,18 +90,6 @@ Join us in **transforming traffic management!** 🏙️💡
 - Implements **synthetic data augmentation** techniques (fog, rain, night conditions).  
 - Ensures reliable performance across **varying lighting, weather, and traffic scenarios**.  
 
-## 🛠️ Installation  
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-repo/cruiseCTRL.git
-   cd cruiseCTRL
-   ```  
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```  
-
 ## 🏎️ Usage  
 
 To run the model on a video stream:  
